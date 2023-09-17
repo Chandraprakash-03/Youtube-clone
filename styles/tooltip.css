@@ -1,0 +1,70 @@
+.search-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    color:white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.search-button:hover .tooltip{
+    opacity:1;
+    
+}
+
+
+.voice-search-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    color:white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.voice-search-button:hover .tooltip{
+    opacity: 1;
+}
+
+.upload-icon-container .tooltip{
+    position: absolute;
+    background-color: gray;
+    color:white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.upload-icon-container:hover .tooltip{
+    opacity: 1;
+}
+
+.youtube-apps-icon-container .tooltip{
+    position: absolute;
+    background-color: gray;
+    color:white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.youtube-apps-icon-container:hover .tooltip{
+    opacity:1;
+}
+
